@@ -48,11 +48,48 @@ div:nth-child(3){
   }
 
  @media(max-width: 500px){
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+   width: 100%;
+   height: 100vh;
+
+}
+
+
     h2{
         font-size: 100px;
         color: #fffacd;
         
     
     }
+
+div:nth-child(1){
+    background-image: url(img/shirakami.jpg) ;
+    background-size: cover;
+}
+div:nth-child(2){
+   background: #a52a2a;
+}
+
+div:nth-child(3){
+   height: 400px;
+   background: url(img/leaves.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+ }
+ div:nth-child(4){
+    background: #deb887;
+ }
+ div:nth-child(5){
+    height: 600px;
+    background: url(img/autumn2.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
     
  }
